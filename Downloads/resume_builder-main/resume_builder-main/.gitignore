@@ -41,3 +41,34 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Firebase and API Keys (Security)
+.env
+.env.local
+.env.production
+.env.staging
+**/google-services.json
+**/GoogleService-Info.plist
+**/firebase_options.dart
+lib/firebase_options_real.dart
+
+# API Keys and Secrets
+api_keys.dart
+secrets.dart
+*.p8
+*.p12
+keystore.properties
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.gr.dart
+
+# Coverage
+coverage/
+
+# Platforms
+/android/local.properties
+/android/keystore.jks
+/ios/Runner/GoogleService-Info.plist
+/macos/Runner/GoogleService-Info.plist
